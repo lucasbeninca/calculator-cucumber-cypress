@@ -11,9 +11,6 @@
   "license": "ISC",
   "devDependencies": {
     "cypress": "^12.17.4",
-    "cypress-cucumber-preprocessor": "^2.5.2"
-  },
-  "cypress-cucumber-preprocessor": {
-    "nonGlobalStepDefinitions": true
+    "@badeball/cypress-cucumber-preprocessor": "18.0.4"
   }
 }
