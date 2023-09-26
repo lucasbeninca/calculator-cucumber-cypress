@@ -20,3 +20,7 @@ When(/^finalizar a conta$/, () => {
 Then(/^devo obter o resultado$/, () => {
   user.shouldSeeTheExpectedResult()
 });
+
+
+
+

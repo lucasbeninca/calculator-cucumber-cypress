@@ -1,13 +1,13 @@
-#language: pt
-Funcionalidade: Calculadora
+
+Feature: Calculadora
 
   Como usuario, desejo utilizar a Calculadora
   Para que possa conferir minhas contas
 
-Cenario: Calcular uma soma de valores
-  Dado que eu acesso a calculadora
-  E desejo realizar uma "soma"
-  Quando informar os valores
-  E finalizar a conta
-  Entao devo obter o resultado
+Scenario: Calcular uma soma de valores
+  Given que eu acesso a calculadora
+  And desejo realizar uma "soma"
+  When informar os valores
+  And finalizar a conta
+  Then devo obter o resultado
 
